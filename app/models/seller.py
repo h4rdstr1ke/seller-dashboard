@@ -13,6 +13,7 @@ class Seller(Base):
     
     first_name = Column(String(100), nullable=False)
     last_name = Column(String(100), nullable=False)
+    middle_name = Column(String, nullable=True)
     company_name = Column(String, nullable=False)
     inn = Column(String(12), nullable=False)
     phone = Column(String, nullable=True)
